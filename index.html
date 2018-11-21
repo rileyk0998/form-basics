@@ -17,28 +17,28 @@
         <form action="http://www.w3schools.com/action_page.php" method="get">
 
             Name:
-            <input type="text" name="name"><br> 
+            <input type="text" name="name" placeholder="Name" required><br> 
             E-mail:
-            <input type="email" name="email"><br>
+            <input type="email" name="email" placeholder="E-mail" required><br>
 
             <!--add your own inputs below-->
-            Favorite food: <input type="text" name="food"><br>
-            Grade: 
-            <Input type="radio" name="grade" value="9"> 9
-            <Input type="radio" name="grade" value="10"> 10
-            <Input type="radio" name="grade" value="11"> 11
-            <Input type="radio" name="grade" value="12"> 12
+            Favorite food: <input type="text" name="food" placeholder="ex: Chicken, Pizza, etc." required><br>
             
-            <Input type="radio" name="grade" placeholder="" required>
+            Grade:
+            <select name="Grade">
+                <option value="9" selected> 9 </option>
+                <option value="10" selected> 10 </option>
+                <option value="11" selected> 11 </option>
+                <option value="12" selected> 12 </option>
+            </select><br>
             
+            Which one do you like more: 
+            <Input type="radio" name="pet" value="Dog"> Dog
+            <Input type="radio" name="pet" value="Cat"> Cat<br>
             
+            How are you feeling today?<br>
+            <textarea name="feeling" placeholder="ex: happy, mad, excited, etc."></textarea><br>
             
-            
-            
-            
-            
-            
-
             <!--add your own inputs above-->
 
             <input class="blue-button" type="submit" value="Submit">
